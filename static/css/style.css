@@ -7,3 +7,19 @@ body {
     background-size: 100% 100%;
     text-align: center;
 }
+
+.filter-label {
+    display: block;
+}
+
+@media only screen and (max-width: 500px){
+    .filter-list {
+        text-align: center
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .fil-in {
+        width: 100%;
+    }
+}
